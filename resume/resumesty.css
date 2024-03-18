@@ -1,0 +1,36 @@
+fieldset{
+    border-style: solid;
+    border-width:5px;
+    border-color: black;
+ 
+}
+address{
+    margin-left:15%;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.head{
+    background-color: black;
+    color:lightblue;
+    
+}
+span{
+    font-size: 50px;
+}
+header>img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    position:relative;
+    left:50px;
+    border-radius:50%;
+    
+}
+h4{
+    position: relative;
+    left: 95px;
+    
+}
