@@ -1,0 +1,347 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.list ul li a:hover{
+    color:white;
+    background-color: #80460f;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: .3s;
+
+
+}
+
+ul{
+    list-style: none;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+.logo{
+    font-family:URW Chancery L, cursive ;
+}
+.list{
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    padding: 20px;
+    color:white;
+}
+.navslide{
+    display:flex;
+    align-items: center;
+}
+.navslide li{
+    margin: 0 30px;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("C:/Users/Kanagamani M/Desktop/Tunescape/Assets/img/back1.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    opacity: 7;
+}
+.head{
+    margin-bottom: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.to{
+    position: relative;
+    top:30px;
+}
+.head h2{
+    font-size: 40px;
+    margin: 50px;
+    margin-top: 200px;
+}
+.night{
+    position:relative;
+    top:30px;
+
+}
+.but:hover{
+       transform: scale(1.1);
+    
+}
+.content{
+    font-size:50px;
+    font-family: URW Chancery L, cursive;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100vw;
+    height:100px;
+}
+.side{
+    font-size: 10px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+.slide{
+    color: white;
+    background: rgba(0, 0, 0, 0.50);    
+}
+.head input{
+    background: none;
+    color: white;
+    background: rgba(0, 0, 0, 0.50);
+    border-radius: 20%;
+    margin-top: 60px;
+    padding: 10px 5px;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    color:black;
+}
+.brown{
+    text-align: center;
+    color:rgb(133, 80, 21);
+
+}
+.sound{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(133, 80, 21);
+    padding-top: 30px;
+
+}
+.lines{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:center;
+}
+.lines .detail img:hover{
+    transform: scale(1.1);
+}
+.lines .detail img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    padding-right: 20px;
+    margin:0px 50px;
+}
+.lines .detail{
+    text-align: center;
+}
+.more{
+    color:white;
+    background-color: rgb(161, 103, 14);
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.spotlight{
+    line-height: 1.8;
+}
+#ch{
+    display: none;
+}
+#ch:checked ~ .showmore{
+    display:block;
+
+}
+#ch:checked ~ label{
+    display:none;
+}
+.showmore{
+    display: none;
+}
+label{
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: #80460f;
+    border-radius: 5px;
+    margin-top: 12px;
+    padding: 3px 13px;
+    position: relative;
+    left:60px;
+}
+.dates .lines{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color: #000000;
+    margin: 20px auto;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    padding-right: 50px;
+    font-size: 17px;
+    margin-left: 30px;
+    position:relative;
+    left:30px   
+}
+.dates .more{
+    margin-top: 30px;
+    padding-top: 10px;
+
+}
+.story.taller{
+    display: flex;
+    flex-direction: row;
+}
+.story .light{
+    margin: 9.5% 0%;
+    display: flex;
+}
+.story img{
+    height: 400px;
+    width: 400px;
+    margin-left: 30px;
+    float: left;
+    display: flex;
+}
+.our{
+    text-align: center;
+    font-size: 50px;
+    color:black;
+}
+.info{
+    max-width: 1170px;
+    margin: auto;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+}
+.light input:hover{
+    transform: scale(1.1);
+
+}
+.light input{
+    background-color: #80460f;
+    font-size: 20px;
+    color:white;
+    width: 110px;
+    height:40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    position:relative;
+    left:30px;
+}
+ul{
+    list-style:none;
+}
+.information{
+    background-color: #000000;
+    padding: 80px 0;
+}
+.div-info{
+    width: 25%;
+    padding: 0 30px;
+}
+.div-info h4{
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.div-info li{
+    color:White;
+    line-height:1.8;
+}
+.div-info i{
+    width: 25px;
+    height: 25px;
+    padding: 20px 20px;
+    position: relative;
+    right:20px
+    
+}
+.fa-instagram {
+    height: 50px;
+    width: 50px;
+    font-size: 40px;;
+    justify-content: space-between;
+  }
+.fa-twitter{
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    padding: 10px 10px;
+}
+.fa-facebook-f{
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+}
+.fa-linkedin-in{
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+}
+.fa-phone{
+    height: 50px;
+    width: 50px;
+    font-size:20px;
+}
+.fa-map-marker-alt{
+    height: 50px;
+    width: 50px;
+    font-size:20px;
+}
+.escape{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+}
+.tune{
+    font-family:URW Chancery L, cursive ;
+    font-size: 45px;
+    color:white;
+    position: relative;
+    bottom:3px;
+    right:23px;
+    top:7px;
+
+}
+
+.right{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 10px;
+    color:white;
+    font-size:30px ;
+    background-color: none;
+    }
+
